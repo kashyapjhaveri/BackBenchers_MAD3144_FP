@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(205, 237, 248);
+    border: 3px solid rgb(235, 124, 124);
+    border-radius: 20%;
+    box-shadow: 3px 2px 2px 3px rgb(245, 215, 176);
+}
+h1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(12, 12, 88);
+    text-align: center;
+    text-shadow: 3px 2px 5px sienna;
+    border-bottom: 2px dotted saddlebrown;
+}
+h3{
+    margin-top: 5%;
+    margin-left: 7.5%;
+    color: rgb(2, 59, 27);
+}
+ul{
+    margin-left: 7.5%;
+    color: rgb(2, 61, 61);
+}
+button{
+    background-color: rgb(46, 109, 190);
+    color: floralwhite;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 48%;
+    margin-bottom: 2%;
+    padding: .75% .75% .75%;
+}
