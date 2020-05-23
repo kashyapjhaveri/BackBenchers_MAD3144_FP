@@ -3,8 +3,9 @@ body{
     border: 3px solid rgb(235, 124, 124);
     border-radius: 20%;
     box-shadow: 3px 2px 2px 3px rgb(245, 215, 176);
+    height: 750px;
 }
-h1{
+.title{
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
