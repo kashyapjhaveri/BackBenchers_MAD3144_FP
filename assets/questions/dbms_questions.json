@@ -128,89 +128,84 @@
 },
 {
     "questionId": 13,
-    "question": "It is the minimal super key.",
+    "question": "Database management systems are intended to ______.",
     "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
+        "A" : "establish relationship among records in different files",
+        "B" : "maintain data integrity",
+        "C" : "eliminate data redundancy",
+        "D" : "manage file access",
+        "E" : "all of the above"
+    },
+    "answer": "E"
+},
+{
+    "questionId": 14,
+    "question": "The language used application programs to request data from the DBMS is referred to as the ______",
+    "options": {
+        "A" : "DML",
+        "B" : "DDL",
+        "C" : "query language",
+        "D" : "none of the above"
     },
     "answer": "A"
 },
 {
-    "questionId": 4,
-    "question": "It is the minimal super key.",
+    "questionId": 15,
+    "question": "It is a collection of operations that performs single logical function in a database application.",
     "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
+        "A" : "Concurrent operation",
+        "B" : "Durability",
+        "C" : "Transaction",
+        "D" : "Atomicity"
+    },
+    "answer": "C"
+},
+{
+    "questionId": 16,
+    "question": "The problem that is compounded when constraints involve several data items from different files are called ______.",
+    "options": {
+        "A" : "Security Problem",
+        "B" : "Durability Problem",
+        "C" : "Transaction Control Management Problem",
+        "D" : "Integrity Problem"
+    },
+    "answer": "D"
+},
+{
+    "questionId": 17,
+    "question": "Ensuring atomicity is the responsibility of the ______ component",
+    "options": {
+        "A" : "Buffer Manager",
+        "B" : "Transaction Manager",
+        "C" : "File Manager",
+        "D" : "DBA"
+    },
+    "answer": "B"
+},
+{
+    "questionId": 18,
+    "question": "Using relational model we design conceptual database design.",
+    "options": {
+        "A" : "True",
+        "B" : "False"
+    },
+    "answer": "B"
+},
+{
+    "questionId": 19,
+    "question": "Tables are required to have at least one column.",
+    "options": {
+        "A" : "True",
+        "B" : "False"
     },
     "answer": "A"
 },
 {
-    "questionId": 4,
-    "question": "It is the minimal super key.",
+    "questionId": 20,
+    "question": "In Relational Database data is stored as record types and the relationship is represented by set types.",
     "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
-    },
-    "answer": "A"
-},
-{
-    "questionId": 4,
-    "question": "It is the minimal super key.",
-    "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
-    },
-    "answer": "A"
-},
-{
-    "questionId": 4,
-    "question": "It is the minimal super key.",
-    "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
-    },
-    "answer": "A"
-},
-{
-    "questionId": 4,
-    "question": "It is the minimal super key.",
-    "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
-    },
-    "answer": "A"
-},
-{
-    "questionId": 4,
-    "question": "It is the minimal super key.",
-    "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
-    },
-    "answer": "A"
-},
-{
-    "questionId": 4,
-    "question": "It is the minimal super key.",
-    "options": {
-        "A" : "Candidate Key",
-        "B" : "Unique Key",
-        "C" : "Primary Key",
-        "D" : "Alternate Key"
+        "A" : "True",
+        "B" : "False"
     },
     "answer": "A"
 }
