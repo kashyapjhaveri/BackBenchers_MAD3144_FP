@@ -1,0 +1,45 @@
+[{
+        "questionId": 1,
+        "question": "What is an activity in Android?",
+        "options": {
+            "A" : "Activity performs the actions on the screen",
+            "B" : "Manage the Application content",
+            "C" : "Screen UI",
+            "D" : "None of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "questionId": 2,
+        "question": " How to move services to foreground in android?",
+        "options": {
+            "A" : "Services always work in Foreground only",
+            "B" : " No,We can't do this query",
+            "C" : "Using startService(Intent intent)",
+            "D" : "startForeground(int id, Notification notification)"
+        },
+        "answer": "D"
+    },
+    {
+        "questionId": 3,
+        "question": "How to stop the services in android?",
+        "options": {
+            "A" : "finish()",
+            "B" : "system.exit()",
+            "C" : "By Manually",
+            "D" : "stopSelf() and stopService()"
+        },
+        "answer": "D"
+    },
+    {
+        "questionId": 4,
+        "question": "What is the difference between content values and cursor in android SQlite?",
+        "options": {
+            "A" : "Content values are key pair values, which are updated or inserted in the database",
+            "B" : "Cursor is used to store the temporary result",
+            "C" : "A & B",
+            "D" : "Content values are used to share the data."
+        },
+        "answer": "C"
+    }
+]
