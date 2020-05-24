@@ -41,5 +41,174 @@
             "D" : "Content values are used to share the data."
         },
         "answer": "C"
-    }
+    },
+    {
+        "questionId": 5,
+        "question": "What is JNI in android",
+        "options": {
+            "A" : "Java Network Interface",
+            "B" : "Java Interface",
+            "C" : "Image editable tool",
+            "D" : "Java Native Interface"
+        },
+        "answer": "D"
+    },
+    {
+    "questionId": 6,
+    "question": "What are the debugging techniques available in Android",
+        "options":{
+        "A" : "DDMS",
+        "B" :  "Breaking Point",
+        "C" : "Memory Profiling",
+        "D" : "All of the Above"
+        },
+
+
+    "answer": "D"
+},
+    {
+        "questionId": 7,
+        "question": "What is the package name of HTTP client in android?",
+        "options": {
+            "A" : "com.json",
+            "B" : "org.apache.http.client",
+            "C" : "com.android.JSON",
+            "D" : "org.json"
+        },
+        "answer": "B"
+    },
+    {
+    "questionId": 8,
+    "question": "What is fragment lifecycle in Android?",
+    "options": {
+        "A" : "onReceive()",
+        "B" : "onCreate()",
+        "C" : "onAttach()->onCreate() −> onCreateView() −> onActivityCreated() −> onStart() −> onResume()",
+        "D" : "None of the Above"
+    },
+    "answer": "C"
+},{
+    "questionId": 9,
+    "question": "What is transient data in android?",
+    "options": {
+        "A" : "Permanent Data",
+        "B" : "Secure Data",
+        "C" : "Temporary Data",
+        "D" : "Logical Data"
+    },
+    "answer": "D"
+},{
+    "questionId": 10,
+    "question": "What is an interface in android?",
+    "options": {
+        "A" :"Interface acts as a bridge between class and the outside world.",
+        "B" :"Interface is a class",
+        "C" : "Interface is a layout file",
+        "D" : "None of the above"
+    },
+    "answer": "D"
+},{
+    "questionId": 11,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},{
+    "questionId": 12,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},{
+    "questionId": 13,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},
+    {
+    "questionId": 14,
+        "question": "",
+        "options": {
+            "A" : "",
+            "B" : "",
+            "C" : "",
+            "D" : ""
+        },
+        "answer": "C"
+    },
+    {
+    "questionId": 15,
+        "question": "",
+        "options": {
+            "A" : "",
+            "B" : "",
+            "C" : "",
+            "D" : ""
+        },
+        "answer": "C"
+    },
+    {
+    "questionId": 16,
+        "question": "",
+        "options": {
+            "A" : "",
+            "B" : "",
+            "C" : "",
+            "D" : ""
+        },
+        "answer": "C"
+    },{
+    "questionId": 17,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},{
+    "questionId": 18,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},{
+    "questionId": 19,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+},{
+    "questionId": 20,
+    "question": "",
+    "options": {
+        "A" : "",
+        "B" : "",
+        "C" : "",
+        "D" : ""
+    },
+    "answer": "C"
+}
 ]
