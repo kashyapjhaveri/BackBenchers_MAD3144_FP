@@ -109,43 +109,43 @@
     "answer": "D"
 },{
     "questionId": 11,
-    "question": "",
+    "question": "How to move services to foreground in android?",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "Services always work in Foreground only",
+        "B" : " startForeground(int id, Notification notification).",
+        "C" : " No, we don't do this QUERY",
+        "D" : "Using startService(Intent intent)"
     },
-    "answer": "C"
+    "answer": "B"
 },{
     "questionId": 12,
-    "question": "",
+    "question": " How to stop the services in android ?",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "stopSelf() and stopService()",
+        "B" : "system.exit()",
+        "C" : "finish()",
+        "D" : "By Manually"
     },
-    "answer": "C"
+    "answer": "A"
 },{
     "questionId": 13,
-    "question": "",
+    "question": "___________ allows you to create large and complex layouts with a flat view hierarchy",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "Constraint Layout",
+        "B" : "Grid Layout",
+        "C" : "Recycler View",
+        "D" : "Relative layout"
     },
-    "answer": "C"
+    "answer": "A"
 },
     {
     "questionId": 14,
-        "question": "",
+        "question": "Android application can be built by using following language.",
         "options": {
-            "A" : "",
-            "B" : "",
-            "C" : "",
-            "D" : ""
+            "A" : "Java",
+            "B" : "Kotlin",
+            "C" : "Both A & B",
+            "D" : "None of the above"
         },
         "answer": "C"
     },
