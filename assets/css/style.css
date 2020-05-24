@@ -14,14 +14,24 @@ body{
     text-shadow: 3px 2px 5px sienna;
     border-bottom: 2px dotted saddlebrown;
 }
-h3{
+.instructions{
     margin-top: 5%;
     margin-left: 7.5%;
     color: rgb(2, 59, 27);
 }
-ul{
+.instruct{
     margin-left: 7.5%;
     color: rgb(2, 61, 61);
+}
+.type{
+    margin-top: 2%;
+    margin-left: 7.5%;
+    color: rgb(109, 4, 4);
+
+}
+.radioGroup{
+    margin-left: 7.5%;
+    color: rgb(109, 6, 38);
 }
 button{
     background-color: rgb(46, 109, 190);
@@ -34,3 +44,4 @@ button{
     margin-bottom: 2%;
     padding: .75% .75% .75%;
 }
+

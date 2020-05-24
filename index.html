@@ -9,12 +9,22 @@
     </head>
     <body>
         <main>
-            <h3>Instructions about the quiz</h3>
-            <ul>
+            <h3 class="instructions">Instructions about the quiz</h3>
+            <ul class="instruct">
                 <li>There will be 10 questions.</li>
                 <li>You have to score 8 or above to pass the quiz.</li>
                 <li>There is no time limit.</li>
-            </ul>
+            </ul><br>
+            <h3 class="type">Select the category of quiz you want to take</h3>
+            <div class="radioGroup">
+                <input id="DBMS" name="quizType" type="radio">
+                <label for="DBMS">DBMS</label><br>
+                <input id="iOS" name="quizType" type="radio">
+                <label for="iOS">iOS</label><br>
+                <input id="Android" name="quizType" type="radio">
+                <label for="Android">Android</label>
+            </div>
+
             <button type="button" onclick="start()">Start</button>
         </main>
         <script>
