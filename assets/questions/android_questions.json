@@ -151,64 +151,62 @@
     },
     {
     "questionId": 15,
-        "question": "",
+        "question": "Android is an operating system based on ________ with a Java programming interface for mobile devices such as Smartphone (Touch Screen Devices who supports Android OS) as well for Tablets too.",
         "options": {
-            "A" : "",
-            "B" : "",
-            "C" : "",
-            "D" : ""
+            "A" : "Linux",
+            "B" : "Windows",
+            "C" : "Unix",
+            "D" : "Linux Kernel"
         },
-        "answer": "C"
+        "answer": "D"
     },
     {
     "questionId": 16,
-        "question": "",
+        "question": "An ____________  is basically a message that is passed between components ",
         "options": {
-            "A" : "",
-            "B" : "",
-            "C" : "",
-            "D" : ""
+            "A" : "Activity",
+            "B" : "Intent",
+            "C" : "Message",
+            "D" : "CallBack"
         },
-        "answer": "C"
+        "answer": "B"
     },{
     "questionId": 17,
-    "question": "",
+    "question": "By using __________ attribute we can define the number of stars to display in RatingBar.",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "android\\:numStars",
+        "B" : "android\\:numberStars",
+        "C" :  "android\\:noOfStars ",
+        "D" : "android\\:totalNumberOfStars"
     },
-    "answer": "C"
+    "answer": "A"
 },{
     "questionId": 18,
-    "question": "",
+    "question": "Can we call another activity using explicit intent?",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "True",
+        "B" : "False"
     },
-    "answer": "C"
+    "answer": "A"
 },{
     "questionId": 19,
-    "question": "",
+    "question": "______________ folder contains XML files that describe the layout of the widgets (like buttons, text fields, Spinner, etc.) on the screens in your android application.",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "XML",
+        "B" : "layout",
+        "C" : "res",
+        "D" : "src"
     },
-    "answer": "C"
+    "answer": "B"
 },{
     "questionId": 20,
-    "question": "",
+    "question": "]If EditText field is for password, then we need to specify the value of attribute _______ as “textPassword”.",
     "options": {
-        "A" : "",
-        "B" : "",
-        "C" : "",
-        "D" : ""
+        "A" : "inputType",
+        "B" : "DataType",
+        "C" : "ispassword",
+        "D" : "None Of This"
     },
-    "answer": "C"
+    "answer": "D"
 }
 ]
