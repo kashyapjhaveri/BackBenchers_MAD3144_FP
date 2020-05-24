@@ -33,6 +33,11 @@ body{
     margin-left: 9%;
     color: rgb(109, 6, 38);
 }
+.user{
+    margin-top: 5%;
+    margin-left: 8%;
+    color: #39045f;
+}
 button{
     background-color: rgb(46, 109, 190);
     color: floralwhite;
