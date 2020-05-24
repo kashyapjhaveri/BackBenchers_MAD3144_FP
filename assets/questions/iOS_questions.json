@@ -1,0 +1,109 @@
+[{
+  "questionId": 1,
+  "question": "When an activity doesn't exist in memory it is in which state?",
+  "options": {
+    "A" : "Running State",
+    "B" : "Non-existent State",
+    "C" : "Starting State",
+    "D" : "Loading State"
+  },
+  "answer": "C"
+},
+  {
+    "questionId": 2,
+    "question": "Which of the following is NOT a state in the lifecycle of a service?",
+    "options": {
+      "A" : "Running",
+      "B" : "Paused",
+      "C" : "Starting",
+      "D" : "Destroyed"
+    },
+    "answer": "B"
+  },
+  {
+    "questionId": 3,
+    "question": "What is the function of FaceTime in iPhone?",
+    "options": {
+      "A" : "Video Calls",
+      "B" : "Editing Photos",
+      "C" : "Digital Photos",
+      "D" : "Taking Videos"
+    },
+    "answer": "A"
+  },
+  {
+    "questionId": 4,
+    "question": "iPhone is a line of Internet and Multimedia-enabled smartphones designed and marketed by ______. ",
+    "options": {
+      "A" : "Intel",
+      "B" : "Apple",
+      "C" : "Dell",
+      "D" : "IBM"
+    },
+    "answer": "B"
+  },
+  {
+    "questionId": 5,
+    "question": "Does the iPhone browser support flash applications?",
+    "options": {
+      "A" : "False",
+      "B" : "True"
+    },
+    "answer": "B"
+  },
+  {
+    "questionId": 6,
+    "question": "The iPhone camera can",
+    "options": {
+      "A" : "Autofocus",
+      "B" : "Make digital photos",
+      "C" : "Record videos",
+      "D" : "both B & C"
+    },
+    "answer": "D"
+  },
+  {
+    "questionId": 7,
+    "question": "The iPhone has a feature that activates when you rotate the device from portrait to landscape.",
+    "options": {
+      "A" : "Accelerometer",
+      "B" : "Special Sensor",
+      "C" : "Rotator",
+      "D" : "Shadow detector"
+    },
+    "answer": "A"
+  },
+  {
+    "questionId": 8,
+    "question": "iOS stands for?",
+    "options": {
+      "A" : "iPhone Operating System",
+      "B" : "Inter-network Operating System",
+      "C" : "Internet Operating System",
+      "D" : "None of the above"
+    },
+    "answer": "A"
+  },
+  {
+    "questionId": 9,
+    "question": "The IDE used in Swift is ______.",
+    "options": {
+      "A" : "Gas",
+      "B" : "Ld",
+      "C" : "Xcode",
+      "D" : "None of the above"
+    },
+    "answer": "C"
+  },
+  {
+    "questionId": 10,
+    "question": "To create constants in swift we use ______ keyword.",
+    "options": {
+      "A" : "let",
+      "B" : "int",
+      "C" : "constant",
+      "D" : "var"
+    },
+    "answer": "A"
+  }
+]
