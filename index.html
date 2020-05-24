@@ -24,12 +24,21 @@
                 <input id="Android" name="quizType" type="radio">
                 <label for="Android">Android</label>
             </div>
-            <p class="user">Name : <input id="name" type="text"></p>
+            <p class="user">Enter Name : <input id="name" type="text"></p>
             <button type="button" onclick="start()">Start</button>
         </main>
         <script>
             function start(){
-                window.location.replace('Q.html');
+                const a = document.getElementById("name").value;
+                if (document.getElementById("DBMS").checked && (a != "")){
+                    window.location.replace('Q.html');
+                } else if (document.getElementById("iOS").checked && (a != "")){
+                    window.location.replace('Q.html');
+                } else if (document.getElementById("Android").checked && (a != "")) {
+                    window.location.replace('Q.html');
+                } else {
+                    alert("You must enter the required details the start the quiz")
+                }
             }
         </script>
     </body>
