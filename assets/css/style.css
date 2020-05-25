@@ -1,12 +1,12 @@
 body{
     background-color: rgb(205, 237, 248);
     border: 3px solid rgb(235, 124, 124);
-    border-radius: 20%;
+    border-radius: 10%;
     box-shadow: 3px 2px 2px 3px rgb(245, 215, 176);
     height: 750px;
 }
 .title{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     color: rgb(12, 12, 88);
@@ -14,20 +14,19 @@ body{
     text-shadow: 3px 2px 5px sienna;
     border-bottom: 2px dotted saddlebrown;
 }
-.instructions{
+.subtitle1{
     margin-top: 5%;
     margin-left: 7.5%;
     color: rgb(2, 59, 27);
 }
-.instruct{
-    margin-left: 7.5%;
-    color: rgb(2, 61, 61);
-}
-.type{
+.subtitle2{
     margin-top: 1%;
     margin-left: 7.5%;
     color: rgb(109, 4, 4);
-
+}
+.subContent1{
+    margin-left: 7.5%;
+    color: rgb(2, 61, 61);
 }
 .radioGroup{
     margin-left: 9%;
@@ -49,4 +48,25 @@ button{
     margin-bottom: 2%;
     padding: .75% .75% .75%;
 }
-
+#nav ul{
+    background-color: gray;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+#nav li{
+    float: left;
+    display: block;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+#nav li a{
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 15px;
+}
+#nav a:hover{
+    background-color: black;
+}
