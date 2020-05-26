@@ -3,7 +3,6 @@ body{
     border: 3px solid rgb(235, 124, 124);
     border-radius: 10%;
     box-shadow: 3px 2px 2px 3px rgb(245, 215, 176);
-    height: 750px;
 }
 .title{
     margin-top: 2%;
@@ -43,7 +42,7 @@ button{
     text-align: center;
     font-size: 100%;
     cursor: pointer;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 48%;
     margin-bottom: 2%;
     padding: .75% .75% .75%;
@@ -69,4 +68,15 @@ button{
 }
 #nav a:hover{
     background-color: black;
+}
+#rightSide{
+    float: right;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+.indexMain{
+    float: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    width: 50%;
 }

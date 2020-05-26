@@ -8,11 +8,11 @@
         <h1 class="title">QUIZ</h1>
     </head>
     <body>
-        <main>
-            <form>
+        <main class="indexMain">
+            <form class="form1">
             <h3 class="subtitle1">Instructions about the quiz</h3>
             <ul class="subContent1">
-                <li>There will be 10 questions.</li>
+                <li>There will be 10 questions for each selected category.</li>
                 <li>You have to score 8 or above to pass the quiz.</li>
                 <li>There is no time limit.</li>
             </ul><br>
@@ -26,13 +26,19 @@
                 <label for="Android">Android</label>
             </div>
             <p class="user">Enter Name : <input id="name" type="text"></p>
-            <button type="button" onclick="start()">Start</button>
             </form>
         </main>
+        <aside id="rightSide">
+            <img src="choice.png" height="300px" width="250px">
+        </aside>
+        <footer>
+            <button type="button" onclick="start()">Start</button>
+        </footer>
         <script>
             function start(){
                 const a = document.getElementById("name").value;
                 if (document.getElementById("DBMS").checked && (a != "")){
+                    var b = document.getElementById("DBMS").value;
                     window.location.replace('Q.html');
                 } else if (document.getElementById("iOS").checked && (a != "")){
                     window.location.replace('Q.html');
