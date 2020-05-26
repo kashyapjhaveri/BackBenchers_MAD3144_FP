@@ -28,11 +28,11 @@ body{
     color: rgb(2, 61, 61);
 }
 .radioGroup{
-    margin-left: 9%;
+    margin-left: 10%;
     color: rgb(109, 6, 38);
 }
 .user{
-    margin-top: 5%;
+    margin-top: 7.5%;
     margin-left: 8%;
     color: #39045f;
 }
@@ -72,11 +72,14 @@ button{
 #rightSide{
     float: right;
     margin-top: 1%;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 .indexMain{
     float: left;
     margin-left: 5%;
     margin-right: 1%;
-    width: 50%;
+    width: 40%;
+}
+footer{
+    clear: both;
 }
