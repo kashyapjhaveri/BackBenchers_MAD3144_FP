@@ -22,15 +22,21 @@
                 <div class="questionText">
                     This is a sample question
                 </div>
-                <ul class="options">
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                </ul>
+                <div class="radioGroup">
+                    <input id="option1" type="radio">
+                    <label for="option1">option 1</label><br>
+                    <input id="option2" type="radio">
+                    <label for="option1">option 2</label><br>
+                    <input id="option3" type="radio">
+                    <label for="option1">option 3</label><br>
+                    <input id="option4" type="radio">
+                    <label for="option1">option 4</label>
+                </div>
             </div>
-<!--            <h3 class="subtitle2">Quiz Type</h3>-->
         </main>
+        <footer>
+            <button type="button" onclick="next()">Next</button>
+        </footer>
         <script type="text/javascript" src="assets/questions/dbms.js"></script>
         <script type="text/javascript">
             const questions = JSON.parse(data);

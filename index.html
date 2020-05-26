@@ -27,7 +27,7 @@
                 <input id="Android" name="quizType" type="radio">
                 <label for="Android">Android</label>
             </div>
-            <p class="user">Enter Name : <input id="name" type="text"></p>
+            <p class="context">Enter Name : <input id="name" type="text"></p>
             </form>
         </main>
         <aside id="rightSide">
@@ -42,9 +42,9 @@
                 if (document.getElementById("DBMS").checked && (a != "")){
                     window.location = 'dbms.html';
                 } else if (document.getElementById("iOS").checked && (a != "")){
-                    window.location.replace('Q.html');
+                    window.location = 'iOS.html';
                 } else if (document.getElementById("Android").checked && (a != "")) {
-                    window.location.replace('Q.html');
+                    window.location = 'android.html';
                 } else {
                     alert("You must enter the required details the start the quiz")
                 }

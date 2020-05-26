@@ -31,7 +31,7 @@ body{
     margin-left: 10%;
     color: rgb(109, 6, 38);
 }
-.user{
+.context{
     margin-top: 7.5%;
     margin-left: 8%;
     color: #39045f;
@@ -82,4 +82,11 @@ button{
 }
 footer{
     clear: both;
+}
+.questionText{
+    font-size: 125%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    margin-bottom: 2%;
+    color: rgb(109, 6, 38);
 }
