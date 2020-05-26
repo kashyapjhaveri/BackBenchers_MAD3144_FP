@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>
+            Back Benchers MAD3114_FP
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">DBMS Quiz</h1>
+        </header>
+        <main>
+            <nav id="nav">
+                <ul>
+                    <li><a style="text-decoration: none" href="index.html" title="Home page">Home</a></li>
+                    <li><a style="text-decoration: none" href="dbms.html">Submit</a></li>
+                    <li><a style="text-decoration: none">About us</a> </li>
+                </ul>
+            </nav>
+            <div class="questionContainer">
+                <div class="questionText">
+                    This is a sample question
+                </div>
+                <ul class="options">
+                    <li>abc</li>
+                    <li>abc</li>
+                    <li>abc</li>
+                    <li>abc</li>
+                </ul>
+            </div>
+<!--            <h3 class="subtitle2">Quiz Type</h3>-->
+        </main>
+        <script type="text/javascript" src="assets/questions/dbms.js"></script>
+        <script type="text/javascript">
+            const questions = JSON.parse(data);
+            console.log(questions);
+        </script>
+    </body>
+</html>
