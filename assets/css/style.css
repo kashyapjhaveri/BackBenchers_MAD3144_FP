@@ -47,11 +47,11 @@ button{
     margin-bottom: 2%;
     padding: .75% .75% .75%;
 }
-#nav ul{
+    #nav ul{
     background-color: gray;
     border: 1px solid black;
     margin-left: 5%;
-    margin-right: 5%;
+        margin-right: 5%;
     overflow: hidden;
 }
 #nav li{
