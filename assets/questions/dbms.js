@@ -1,5 +1,5 @@
 const data = '[{\n' +
-    '    "questionId": 1,\n' +
+    '    "questionId": 0,\n' +
     '    "question": "It is the property that describes various characteristics of an entity.",\n' +
     '    "options": {\n' +
     '        "A" : "Column",\n' +
@@ -10,7 +10,7 @@ const data = '[{\n' +
     '    "answer": "B"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 2,\n' +
+    '    "questionId": 1,\n' +
     '    "question": "It is an association between entities.",\n' +
     '    "options": {\n' +
     '        "A" : "One to One",\n' +
@@ -21,7 +21,7 @@ const data = '[{\n' +
     '    "answer": "C"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 3,\n' +
+    '    "questionId": 2,\n' +
     '    "question": "______ stores metadata about the structure of the database.",\n' +
     '    "options": {\n' +
     '        "A" : "Query Analyzer",\n' +
@@ -32,7 +32,7 @@ const data = '[{\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 4,\n' +
+    '    "questionId": 3,\n' +
     '    "question": "It is the minimal super key.",\n' +
     '    "options": {\n' +
     '        "A" : "Candidate Key",\n' +
@@ -43,7 +43,7 @@ const data = '[{\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 5,\n' +
+    '    "questionId": 4,\n' +
     '    "question": "Foreign Key can be Null.",\n' +
     '    "options": {\n' +
     '        "A" : "False",\n' +
@@ -52,7 +52,7 @@ const data = '[{\n' +
     '    "answer": "B"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 6,\n' +
+    '    "questionId": 5,\n' +
     '    "question": "All the primary keys should be super keys.",\n' +
     '    "options": {\n' +
     '        "A" : "True",\n' +
@@ -61,18 +61,18 @@ const data = '[{\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 7,\n' +
+    '    "questionId": 6,\n' +
     '    "question": "What is the function of a database?",\n' +
     '    "options": {\n' +
-    '        "A" : "to check all spellings",\n' +
-    '        "B" : "to output data",\n' +
-    '        "C" : "to check all input data",\n' +
-    '        "D" : "to collect and organize input data"\n' +
+    '        "A" : "To check all spellings",\n' +
+    '        "B" : "To output data",\n' +
+    '        "C" : "To check all input data",\n' +
+    '        "D" : "To collect and organize input data"\n' +
     '    },\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 8,\n' +
+    '    "questionId": 7,\n' +
     '    "question": "What is the language that is used by most DBMSs for helping their users to access data?",\n' +
     '    "options": {\n' +
     '        "A" : "SQL",\n' +
@@ -83,7 +83,7 @@ const data = '[{\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 9,\n' +
+    '    "questionId": 8,\n' +
     '    "question": "Information can be transferred between the DBMS and ______.",\n' +
     '    "options": {\n' +
     '        "A" : "Graphics program",\n' +
@@ -94,7 +94,7 @@ const data = '[{\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 10,\n' +
+    '    "questionId": 9,\n' +
     '    "question": "______ can be used as a primary key for a student file.",\n' +
     '    "options": {\n' +
     '        "A" : "Social Security Number",\n' +
@@ -105,52 +105,52 @@ const data = '[{\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 11,\n' +
+    '    "questionId": 10,\n' +
     '    "question": "A record management system ______.",\n' +
     '    "options": {\n' +
-    '        "A" : "can be used to extract information stored in a computer file",\n' +
-    '        "B" : "always uses a list as its model",\n' +
-    '        "C" : "can handle many files of information at a time",\n' +
-    '        "D" : "both a and b"\n' +
+    '        "A" : "Can be used to extract information stored in a computer file",\n' +
+    '        "B" : "Always uses a list as its model",\n' +
+    '        "C" : "Can handle many files of information at a time",\n' +
+    '        "D" : "Both a and b"\n' +
+    '    },\n' +
+    '    "answer": "A"\n' +
+    '},\n' +
+    '{\n' +
+    '    "questionId": 11,\n' +
+    '    "question": "It is a command that lets user to change one or more fields in a record.",\n' +
+    '    "options": {\n' +
+    '        "A" : "Modify",\n' +
+    '        "B" : "Lookup",\n' +
+    '        "C" : "Insert",\n' +
+    '        "D" : "Update"\n' +
     '    },\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
     '    "questionId": 12,\n' +
-    '    "question": "It is a command that lets user to change one or more fields in a record.",\n' +
-    '    "options": {\n' +
-    '        "A" : "modify",\n' +
-    '        "B" : "lookup",\n' +
-    '        "C" : "insert",\n' +
-    '        "D" : "update"\n' +
-    '    },\n' +
-    '    "answer": "A"\n' +
-    '},\n' +
-    '{\n' +
-    '    "questionId": 13,\n' +
     '    "question": "Database management systems are intended to ______.",\n' +
     '    "options": {\n' +
-    '        "A" : "establish relationship among records in different files",\n' +
-    '        "B" : "maintain data integrity",\n' +
-    '        "C" : "eliminate data redundancy",\n' +
-    '        "D" : "manage file access",\n' +
-    '        "E" : "all of the above"\n' +
+    '        "A" : "Establish relationship among records in different files",\n' +
+    '        "B" : "Maintain data integrity",\n' +
+    '        "C" : "Eliminate data redundancy",\n' +
+    '        "D" : "Manage file access",\n' +
+    '        "E" : "All of the above"\n' +
     '    },\n' +
     '    "answer": "E"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 14,\n' +
+    '    "questionId": 13,\n' +
     '    "question": "The language used application programs to request data from the DBMS is referred to as the ______",\n' +
     '    "options": {\n' +
     '        "A" : "DML",\n' +
     '        "B" : "DDL",\n' +
-    '        "C" : "query language",\n' +
-    '        "D" : "none of the above"\n' +
+    '        "C" : "Query language",\n' +
+    '        "D" : "None of the above"\n' +
     '    },\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 15,\n' +
+    '    "questionId": 14,\n' +
     '    "question": "It is a collection of operations that performs single logical function in a database application.",\n' +
     '    "options": {\n' +
     '        "A" : "Concurrent operation",\n' +
@@ -161,7 +161,7 @@ const data = '[{\n' +
     '    "answer": "C"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 16,\n' +
+    '    "questionId": 15,\n' +
     '    "question": "The problem that is compounded when constraints involve several data items from different files are called ______.",\n' +
     '    "options": {\n' +
     '        "A" : "Security Problem",\n' +
@@ -172,7 +172,7 @@ const data = '[{\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 17,\n' +
+    '    "questionId": 16,\n' +
     '    "question": "Ensuring atomicity is the responsibility of the ______ component",\n' +
     '    "options": {\n' +
     '        "A" : "Buffer Manager",\n' +
@@ -183,7 +183,7 @@ const data = '[{\n' +
     '    "answer": "B"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 18,\n' +
+    '    "questionId": 17,\n' +
     '    "question": "Using relational model we design conceptual database design.",\n' +
     '    "options": {\n' +
     '        "A" : "True",\n' +
@@ -192,7 +192,7 @@ const data = '[{\n' +
     '    "answer": "B"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 19,\n' +
+    '    "questionId": 18,\n' +
     '    "question": "Tables are required to have at least one column.",\n' +
     '    "options": {\n' +
     '        "A" : "True",\n' +
@@ -201,7 +201,7 @@ const data = '[{\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '{\n' +
-    '    "questionId": 20,\n' +
+    '    "questionId": 19,\n' +
     '    "question": "In Relational Database data is stored as record types and the relationship is represented by set types.",\n' +
     '    "options": {\n' +
     '        "A" : "True",\n' +
