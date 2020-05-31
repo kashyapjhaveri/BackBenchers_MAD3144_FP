@@ -36,10 +36,12 @@
     <script>
         const questionScript = document.createElement('script');
         questionScript.setAttribute('src','assets/questions/'+localStorage.getItem('script'));
+        questionScript.onload = function(){
+            const quizScript = document.createElement('script');
+            quizScript.setAttribute('src','assets/js/quiz.js');
+            document.head.appendChild(quizScript);
+        }
         document.head.appendChild(questionScript);
 
-        const quizScript = document.createElement('script');
-        quizScript.setAttribute('src','assets/js/quiz.js');
-        document.head.appendChild(quizScript);
     </script>
 </html>
