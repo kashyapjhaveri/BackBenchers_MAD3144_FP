@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>
+            Back Benchers MAD3114_FP
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title" id="pageTitle"></h1>
+        </header>
+        <main>
+            <nav id="nav">
+                <ul>
+                    <li><a style="text-decoration: none" href="index.html" title="Home page">Home</a></li>
+                    <li><a style="text-decoration: none" href="about.html">About us</a></li>
+                    <li id="userName" style="float: right;padding-right: 20px;color: white"></li>
+                </ul>
+            </nav>
+            <div class="headerText" id="headerText"></div>
+            <div class="questionContainer" id="questionContainer">
+                <div class="questionText" id="questionText"></div>
+                <div class="radioGroup">
+                    A <input id="option1" type="radio" name="optionGroup" value="A"><label for="option1" id="option1Label"></label><br>
+                    B <input id="option2" type="radio" name="optionGroup" value="B"><label for="option2" id="option2Label"></label><br>
+                    <div id="extraOptions">
+                        C <input id="option3" type="radio" name="optionGroup" value="C"><label for="option3" id="option3Label"></label><br>
+                        D <input id="option4" type="radio" name="optionGroup" value="D"><label for="option4" id="option4Label"></label>
+                    </div>
+                </div>
+            </div>
+            <button type="button" onclick="next()">Next</button>
+        </main>
+    </body>
+    <script>
+        const questionScript = document.createElement('script');
+        questionScript.setAttribute('src','assets/questions/'+localStorage.getItem('script'));
+        document.head.appendChild(questionScript);
+
+        const quizScript = document.createElement('script');
+        quizScript.setAttribute('src','assets/js/quiz.js');
+        document.head.appendChild(quizScript);
+    </script>
+</html>
