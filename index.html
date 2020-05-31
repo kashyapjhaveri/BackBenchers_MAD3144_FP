@@ -38,15 +38,30 @@
         </footer>
         <script>
             function start(){
-                const a = document.getElementById("name").value;
-                if (document.getElementById("DBMS").checked && (a != "")){
-                    window.location = 'dbms.html';
-                } else if (document.getElementById("iOS").checked && (a != "")){
-                    window.location = 'iOS.html';
-                } else if (document.getElementById("Android").checked && (a != "")) {
-                    window.location = 'android.html';
+                const userName = document.getElementById("name").value;
+                if (userName === ""){
+                    alert('Please provide name');
+                    return false;
+                }
+                else{
+                    localStorage.setItem('userName',userName);  //https://stackoverflow.com/questions/27765666/passing-variable-through-javascript-from-one-html-page-to-another-page
+                }
+
+                if (document.getElementById("DBMS").checked ){
+                    localStorage.setItem('quizTopic','DBMS');
+                    localStorage.setItem('script',"dbms.js");
+                    window.location = 'quiz.html';
+                } else if (document.getElementById("iOS").checked ){
+                    localStorage.setItem('quizTopic','iOS');
+                    localStorage.setItem('script',"ios.js")
+                    window.location = 'quiz.html';
+                } else if (document.getElementById("Android").checked) {
+                    localStorage.setItem('quizTopic','Android');
+                    localStorage.setItem('script',"android.js")
+                    window.location = 'quiz.html';
                 } else {
-                    alert("You must enter the required details the start the quiz")
+                    alert("Please select topic of quiz");
+                    return false;
                 }
             }
         </script>
