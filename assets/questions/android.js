@@ -1,5 +1,5 @@
 const data ='[{\n' +
-    '        "questionId": 1,\n' +
+    '        "questionId": 0,\n' +
     '        "question": "What is an activity in Android?",\n' +
     '        "options": {\n' +
     '            "A" : "Activity performs the actions on the screen",\n' +
@@ -10,7 +10,7 @@ const data ='[{\n' +
     '        "answer": "A"\n' +
     '    },\n' +
     '    {\n' +
-    '        "questionId": 2,\n' +
+    '        "questionId": 1,\n' +
     '        "question": " How to move services to foreground in android?",\n' +
     '        "options": {\n' +
     '            "A" : "Services always work in Foreground only",\n' +
@@ -21,7 +21,7 @@ const data ='[{\n' +
     '        "answer": "D"\n' +
     '    },\n' +
     '    {\n' +
-    '        "questionId": 3,\n' +
+    '        "questionId": 2,\n' +
     '        "question": "How to stop the services in android?",\n' +
     '        "options": {\n' +
     '            "A" : "finish()",\n' +
@@ -32,7 +32,7 @@ const data ='[{\n' +
     '        "answer": "D"\n' +
     '    },\n' +
     '    {\n' +
-    '        "questionId": 4,\n' +
+    '        "questionId": 3,\n' +
     '        "question": "What is the difference between content values and cursor in android SQlite?",\n' +
     '        "options": {\n' +
     '            "A" : "Content values are key pair values, which are updated or inserted in the database",\n' +
@@ -43,7 +43,7 @@ const data ='[{\n' +
     '        "answer": "C"\n' +
     '    },\n' +
     '    {\n' +
-    '        "questionId": 5,\n' +
+    '        "questionId": 4,\n' +
     '        "question": "What is JNI in android",\n' +
     '        "options": {\n' +
     '            "A" : "Java Network Interface",\n' +
@@ -54,7 +54,7 @@ const data ='[{\n' +
     '        "answer": "D"\n' +
     '    },\n' +
     '    {\n' +
-    '    "questionId": 6,\n' +
+    '    "questionId": 5,\n' +
     '    "question": "What are the debugging techniques available in Android",\n' +
     '        "options":{\n' +
     '        "A" : "DDMS",\n' +
@@ -67,7 +67,7 @@ const data ='[{\n' +
     '    "answer": "D"\n' +
     '},\n' +
     '    {\n' +
-    '        "questionId": 7,\n' +
+    '        "questionId": 6,\n' +
     '        "question": "What is the package name of HTTP client in android?",\n' +
     '        "options": {\n' +
     '            "A" : "com.json",\n' +
@@ -78,7 +78,7 @@ const data ='[{\n' +
     '        "answer": "B"\n' +
     '    },\n' +
     '    {\n' +
-    '    "questionId": 8,\n' +
+    '    "questionId": 7,\n' +
     '    "question": "What is fragment lifecycle in Android?",\n' +
     '    "options": {\n' +
     '        "A" : "onReceive()",\n' +
@@ -88,7 +88,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "C"\n' +
     '},{\n' +
-    '    "questionId": 9,\n' +
+    '    "questionId": 8,\n' +
     '    "question": "What is transient data in android?",\n' +
     '    "options": {\n' +
     '        "A" : "Permanent Data",\n' +
@@ -98,7 +98,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "D"\n' +
     '},{\n' +
-    '    "questionId": 10,\n' +
+    '    "questionId": 9,\n' +
     '    "question": "What is an interface in android?",\n' +
     '    "options": {\n' +
     '        "A" :"Interface acts as a bridge between class and the outside world.",\n' +
@@ -108,7 +108,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "D"\n' +
     '},{\n' +
-    '    "questionId": 11,\n' +
+    '    "questionId": 10,\n' +
     '    "question": "How to move services to foreground in android?",\n' +
     '    "options": {\n' +
     '        "A" : "Services always work in Foreground only",\n' +
@@ -118,7 +118,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "B"\n' +
     '},{\n' +
-    '    "questionId": 12,\n' +
+    '    "questionId": 11,\n' +
     '    "question": " How to stop the services in android ?",\n' +
     '    "options": {\n' +
     '        "A" : "stopSelf() and stopService()",\n' +
@@ -128,7 +128,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "A"\n' +
     '},{\n' +
-    '    "questionId": 13,\n' +
+    '    "questionId": 12,\n' +
     '    "question": "___________ allows you to create large and complex layouts with a flat view hierarchy",\n' +
     '    "options": {\n' +
     '        "A" : "Constraint Layout",\n' +
@@ -139,7 +139,7 @@ const data ='[{\n' +
     '    "answer": "A"\n' +
     '},\n' +
     '    {\n' +
-    '    "questionId": 14,\n' +
+    '    "questionId": 13,\n' +
     '        "question": "Android application can be built by using following language.",\n' +
     '        "options": {\n' +
     '            "A" : "Java",\n' +
@@ -150,7 +150,7 @@ const data ='[{\n' +
     '        "answer": "C"\n' +
     '    },\n' +
     '    {\n' +
-    '    "questionId": 15,\n' +
+    '    "questionId": 14,\n' +
     '        "question": "Android is an operating system based on ________ with a Java programming interface for mobile devices such as Smartphone (Touch Screen Devices who supports Android OS) as well for Tablets too.",\n' +
     '        "options": {\n' +
     '            "A" : "Linux",\n' +
@@ -161,7 +161,7 @@ const data ='[{\n' +
     '        "answer": "D"\n' +
     '    },\n' +
     '    {\n' +
-    '    "questionId": 16,\n' +
+    '    "questionId": 15,\n' +
     '        "question": "An ____________  is basically a message that is passed between components ",\n' +
     '        "options": {\n' +
     '            "A" : "Activity",\n' +
@@ -171,7 +171,7 @@ const data ='[{\n' +
     '        },\n' +
     '        "answer": "B"\n' +
     '    },{\n' +
-    '    "questionId": 17,\n' +
+    '    "questionId": 16,\n' +
     '    "question": "By using __________ attribute we can define the number of stars to display in RatingBar.",\n' +
     '    "options": {\n' +
     '        "A" : "android\\\\:numStars",\n' +
@@ -181,7 +181,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "A"\n' +
     '},{\n' +
-    '    "questionId": 18,\n' +
+    '    "questionId": 17,\n' +
     '    "question": "Can we call another activity using explicit intent?",\n' +
     '    "options": {\n' +
     '        "A" : "True",\n' +
@@ -189,7 +189,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "A"\n' +
     '},{\n' +
-    '    "questionId": 19,\n' +
+    '    "questionId": 18,\n' +
     '    "question": "______________ folder contains XML files that describe the layout of the widgets (like buttons, text fields, Spinner, etc.) on the screens in your android application.",\n' +
     '    "options": {\n' +
     '        "A" : "XML",\n' +
@@ -199,7 +199,7 @@ const data ='[{\n' +
     '    },\n' +
     '    "answer": "B"\n' +
     '},{\n' +
-    '    "questionId": 20,\n' +
+    '    "questionId": 19,\n' +
     '    "question": "]If EditText field is for password, then we need to specify the value of attribute _______ as “textPassword”.",\n' +
     '    "options": {\n' +
     '        "A" : "inputType",\n' +
