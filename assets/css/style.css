@@ -5,16 +5,18 @@ body{
     border: 3px solid rgb(235, 124, 124);
 }
 .title{
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     color: rgb(12, 12, 88);
     text-align: center;
     text-shadow: 3px 2px 5px sienna;
-    border-bottom: 2px dotted saddlebrown;
+}
+header{
+    border-bottom: 2px dotted #710646;
 }
 .subtitle1{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 7.5%;
     color: rgb(2, 59, 27);
 }
@@ -26,6 +28,7 @@ body{
 .subContent1{
     margin-left: 7.5%;
     color: rgb(2, 61, 61);
+    margin-right: 7.5%;
 }
 .radioGroup{
     margin-left: 10%;
@@ -47,11 +50,11 @@ button{
     margin-bottom: 2%;
     padding: .75% .75% .75%;
 }
-    #nav ul{
+#nav ul{
     background-color: gray;
     border: 1px solid black;
     margin-left: 5%;
-        margin-right: 5%;
+    margin-right: 5%;
     overflow: hidden;
 }
 #nav li{
