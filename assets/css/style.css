@@ -92,7 +92,22 @@ footer{
     margin-bottom: 1%;
     color: rgb(109, 6, 38);
 }
+.headerText{
+    font-size: 125%;
+    margin-top: 2.5%;
+    margin-left: 7.5%;
+    margin-bottom: 1%;
+    color: darkblue;
+}
 .image1{
     width: 100%;
     height: 100%;
+}
+
+.correctAnswer{
+    color: green;
+}
+
+.wrongAnswer{
+    color: red;
 }
