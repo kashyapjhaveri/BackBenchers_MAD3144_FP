@@ -114,3 +114,12 @@ footer{
 .wrongAnswer{
     color: red;
 }
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #8d0d31;
+}
+td, th{
+    border: 1px solid #ee739a;
+    text-align: center;
+}
