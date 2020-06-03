@@ -39,7 +39,7 @@
         <aside id="rightSide">
             <img class="image1" src="assets/images/choice.png">
             <div style="visibility: hidden">
-                <audio controls autoplay>
+                <audio controls autoplay id="myAudio">
                     <source src="assets/audio/bensound-relaxing.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -48,6 +48,9 @@
             <button type="button" onclick="start()">Start</button>
         </footer>
         <script>
+            window.onload = function () {
+                document.getElementById('myAudio').autoplay;
+            }
             function start(){
                 const userName = document.getElementById("name").value;
                 if (userName === ""){
